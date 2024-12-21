@@ -1,0 +1,52 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+*.env
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+db.sqlite3
+
+# VS Code settings
+.vscode/
+
+# IDE settings (add your IDE here if using another one)
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Uvicorn and FastAPI debug files
+*.pid
+*.sock
+
+# pytest cache
+.cache/
+
+# Environment variables
+.env
+
+# SQLite database
+*.sqlite3
+
+# FastAPI static files (if you have any)
+static/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# System files
+.DS_Store    # macOS
+Thumbs.db    # Windows
